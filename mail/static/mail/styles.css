@@ -1,0 +1,40 @@
+body {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+textarea {
+    min-height: 400px;
+}
+
+.read {
+    background-color: rgb(182, 180, 180);
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.unread {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.view {
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.view h6 {
+    text-align: right;
+}
+
+#show-email {
+    position: relative;
+}
+
+.arc {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
